@@ -22,5 +22,9 @@ private uid:string;
 getImages():Observable<GalleryImage[]>{
   return this.db.list('uploads');
 }
+getImage(key: string) {
+  return firebase.database().ref('uploads/' + key).once('value')
+  .then((snap) => snap.val());
+}
 
 }

@@ -5,7 +5,7 @@ export const environment = {
     authDomain: 'angular-gallery-910e4.firebaseapp.com',
     databaseURL: 'https://angular-gallery-910e4.firebaseio.com',
     projectId: 'angular-gallery-910e4',
-    storageBucket: '',
+    storageBucket: 'angular-gallery-910e4.appspot.com',
     messagingSenderId: '829997132349'
   }
 };
